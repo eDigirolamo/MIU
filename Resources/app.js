@@ -69,5 +69,7 @@ aboutMeTable.setData(questions);
 aboutMeTable.addEventListener("click", function(event){
 
 });
+
+// Open Window
 mainWin.add(aboutMeTable);
 navWin.open();
