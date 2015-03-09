@@ -1,0 +1,186 @@
+!SESSION 2015-03-08 19:54:33.509 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/edwarddigirolamo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward -keyring /Users/edwarddigirolamo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-03-08 19:54:35.037
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-03-08 19:54:35.173
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-03-08 19:54:35.173
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-03-08 19:54:35.173
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.253
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/app.js (No such file or directory)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.255
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/app.js (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/app.js (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:61)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:558)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:790)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:682)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:407)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.appcelerator.titanium.ui.ide.wizard.ImportWizard$2.execute(ImportWizard.java:291)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.264
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/JSON.js (No such file or directory)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.265
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/JSON.js (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/JSON.js (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:61)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:558)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:790)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:682)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:407)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.appcelerator.titanium.ui.ide.wizard.ImportWizard$2.execute(ImportWizard.java:291)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.265
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/KS_nav_ui.png (No such file or directory)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.265
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/KS_nav_ui.png (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/KS_nav_ui.png (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:61)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:558)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:790)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:682)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:407)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.appcelerator.titanium.ui.ide.wizard.ImportWizard$2.execute(ImportWizard.java:291)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.266
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/KS_nav_views.png (No such file or directory)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-03-08 19:55:51.266
+!MESSAGE /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/KS_nav_views.png (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/edwarddigirolamo/Desktop/ Full Sail Bachelor of Mobile Development/MIU/1503_AboutMe_Digirolamo_Edward/build/iphone/build/Debug-iphonesimulator/About me.app/KS_nav_views.png (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:61)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:558)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:790)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:799)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:682)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:407)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at com.appcelerator.titanium.ui.ide.wizard.ImportWizard$2.execute(ImportWizard.java:291)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-03-08 19:55:55.123
+!MESSAGE An internal error occurred during: "Mobile Modules".
+!STACK 0
+java.lang.IllegalMonitorStateException: attempt to unlock read lock, not locked by current thread
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.unmatchedUnlockException(ReentrantReadWriteLock.java:387)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryReleaseShared(ReentrantReadWriteLock.java:374)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.releaseShared(AbstractQueuedSynchronizer.java:1317)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.unlock(ReentrantReadWriteLock.java:828)
+	at com.aptana.index.core.Index.exitRead(Index.java:417)
+	at com.aptana.index.core.Index.query(Index.java:565)
+	at com.aptana.js.internal.core.index.JSIndexReader.getTypeNames(JSIndexReader.java:590)
+	at com.appcelerator.titanium.alloy.internal.core.build.ViewIndexingParticipant.ensureDollarTypeExists(ViewIndexingParticipant.java:83)
+	at com.appcelerator.titanium.alloy.internal.core.build.ViewIndexingParticipant.index(ViewIndexingParticipant.java:60)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-03-08 19:56:46.157
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:241)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2015-03-08 19:56:50.638 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/edwarddigirolamo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/edwarddigirolamo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-03-08 19:56:52.163
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-03-08 19:56:52.260
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-03-08 19:56:52.260
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-03-08 19:56:52.260
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-08 19:57:01.121
+!MESSAGE NLS missing message: MobileUsageUtil_mobile_event_error in: com.appcelerator.titanium.usage.messages
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-03-08 19:57:01.609
+!MESSAGE (Build 3.4.1.201410281727) [ERROR]  null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:104)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:478)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:221)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
