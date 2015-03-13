@@ -9,6 +9,9 @@ var mainWin = Ti.UI.createWindow({
 		title: "About Me",
 });
 
+var detailWin = Ti.UI.createWindow({
+		
+});
 
 var navWin = Ti.UI.iOS.createNavigationWindow({
 	window: mainWin,
@@ -55,7 +58,8 @@ for (n in additional){
 		backgroundColor: "#fff",
 	    color: "#000",
 		title: additional[n].title,
-		answer: additional[n].answer
+		answer: additional[n].answer,
+		Num: additional[n].Number
 	});
 	
 additionalQuestions.add(additionalRow);
@@ -67,8 +71,20 @@ additionalQuestions.add(additionalRow);
 aboutMeTable.setData(questions);
 // Event propogation to minimize click listeners and speed up app!
 aboutMeTable.addEventListener("click", function(event){
+	var question = event.source.title;
+	var answer = event.source.answer;
+	var questionNum = Event.source.Number
+	myAnswer(question, answer, number);
+	console.log(question, answer, number);
 
 });
+
+var myAnswer = function(question, answer, number){
+	
+	detailWin.title = 
+	
+};
+
 
 // Open Window
 mainWin.add(aboutMeTable);
