@@ -12,13 +12,13 @@ var mainWin = Ti.UI.createWindow({
 		title: "About Me",
 });
 var detailWin = Ti.UI.createWindow({
-	backgroundColor: "#1976D2",
+	backgroundColor: "#80D8FF",
 	exitOnBack: true
 		
 });
 var navWin = Ti.UI.iOS.createNavigationWindow({
 	window: mainWin,
-	backgroundColor: "#039BE5"
+	backgroundColor: "#42A5F5"
 });
 
 // table
@@ -62,6 +62,7 @@ for (n in additional){
 		title: additional[n].title,
 		answer: additional[n].answer,
 		position: additional[n].position,
+		borderRadius: 10
 	});
 
 additionalQuestions.add(additionalRow);
@@ -87,28 +88,35 @@ var myAnswer = function(question, answer, number){
 	
 	detailWin.title = "Question " + number;
 	var ques = Ti.UI.createLabel({
+		backgroundColor: "#1976D2",
 		top: 45,
 		left: margin,
 		right: margin,
 		text:"question",
+		textAlign: "center",
 		color: "#fff",
 		font: {fontSize: 20, fontFamily: "Arial"},
+		borderRadius: 3
+
 
 	});
 	
 	var answ = Ti.UI.createLabel({
+		backgroundColor: "#1976D2",
 		top: ques.top +150,
 		left: margin,
 		right: margin,
 		text: "answer",
+		textAlign: "center",
 		color: "#fff",
 		font: {fontSize: 20, fontFamily: "Arial"},
+		borderRadius: 3
 
 	});
 
 	detailWin.add(ques, answ);
-	ques.text = "Question:\n\n" + question;
-	answ.text = "Answer:\n\n" +answer;
+	ques.text = "\nQuestion:\n\n" + " "+ question + "\n";
+	answ.text = "\nAnswer:\n\n" + " " + answer + "\n";
 	
 	
 navWin.openWindow(detailWin);	
