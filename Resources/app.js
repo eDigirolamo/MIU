@@ -78,7 +78,6 @@ aboutMeTable.addEventListener("click", function(event){
 	var position = event.source.position;
 
 	myAnswer(question, answer, position);
-console.log(event.source.position);
 	
 
 });
