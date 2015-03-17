@@ -2,7 +2,6 @@
 Titanium.UI.setBackgroundColor('#000');
 
 var margin = 15;
-
 var myData = require("JSON");
 var basic = myData.myData.basic;
 var additional = myData.myData.additional;
@@ -76,10 +75,8 @@ aboutMeTable.addEventListener("click", function(event){
 	var question = event.source.title;
 	var answer = event.source.answer;
 	var position = event.source.position;
-
-	myAnswer(question, answer, position);
+		myAnswer(question, answer, position);
 	
-
 });
 
 // builds detail window from json data
@@ -99,7 +96,6 @@ var myAnswer = function(question, answer, number){
 
 
 	});
-	
 	var answ = Ti.UI.createLabel({
 		backgroundColor: "#1976D2",
 		top: ques.top +150,
@@ -112,12 +108,9 @@ var myAnswer = function(question, answer, number){
 		borderRadius: 3
 
 	});
-
-	detailWin.add(ques, answ);
-	ques.text = "\nQuestion:\n\n" + " "+ question + "\n";
-	answ.text = "\nAnswer:\n\n" + " " + answer + "\n";
-	
-	
+		detailWin.add(ques, answ);
+		ques.text = "\nQuestion:\n\n" + " "+ question + "\n";
+		answ.text = "\nAnswer:\n\n" + " " + answer + "\n";
 navWin.openWindow(detailWin);	
 
 // without this my question would overlap one another after selevting back and then another question
